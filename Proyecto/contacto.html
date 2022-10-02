@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="contacto.css">
+
+
+    <title>Mi proyecto</title>
+</head>
+<body>
+
+    <nav class="navBarr">
+        <ul class="menu-horizontal" id="menu1">
+
+            <!-- Barra de búsqueda -->
+            <li><a title="Logo" href="index.html"> <img src="/Proyecto/Imagenes/Logo.jpg" height="100px" alt="Logo Mercado de las Lapiceras"></a></li>
+            <li> <a href="">Buscador</a></li>
+
+            <!-- categorias -->
+            <li> <a href="productos.html">Productos</a>
+                <ul class="menu-vertical">
+                    <li><a href="">Papeleria</a>
+                        <ul class="menu-vertical-2">
+                            <li><a href="">Cuadernos</a></li>
+                            <li><a href="">Libretas</a></li>
+                            <li><a href="">Resmas</a></li>                    
+                        </ul>
+                    </li>
+                    <li><a href="">Escritura</a>
+                        <ul class="menu-vertical-2">
+                            <li><a href="">Marcadores</a></li>
+                            <li><a href="">Lápices</a></li>
+                            <li><a href="">Biromes</a></li>                   
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Enlaces en nav -->
+            <li><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
+            <li><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
+        </ul>
+    </nav>
+    <form action="mailto:ezequiel.pucheta.91@gmail.com" method="get">
+        <div class="FormularioConsulta"> <h2>Mandanos tu consulta</h2>
+            <br><br>
+            <p>
+                <label for="NombreCompleto">Nombre y Apellido</label>
+                <input type="text" name="NombreCompleto" id="NombreCompleto" size="40px" required>
+            </p>
+            <p>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" size="40px" required>
+            </p>
+            <p>
+                <label for="CodigoArea">Teléfono</label>
+                <input type="tel" name="CodigoArea" id="CodigoArea" size="7px" maxlength="3" placeholder="(Cód. de área)" >
+
+                <label for="Telefono"></label>
+                <input type="tel" name="Telefono" id="Telefono" maxlength="12" >
+            </p>
+            <p>
+            <p>
+                <!-- <label for="Mensaje">Mensaje</label>
+                <input type="text" name="Mensaje" id="Mensaje" placeholder="Esciba su consulta" required> -->
+                Mensaje <textarea name="textarea" rows="10" cols="50" placeholder="Escibí tu consulta"></textarea>
+            </p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar todo">
+        </div>
+</form>
+    
+<br><br><br><br><br><br><br><br><br><br>
+
+    <footer class="Footer">
+        <div class="Redes">
+            <ul type="none">
+                <li><a href="https://wa.me/541167142056" target="_blank"> <img src="/Proyecto/Imagenes/WhatsAppLogo.ico" height="20px"></a></li>
+                <li><a href="https://facebook.com" target="_blank"> <img src="/Proyecto/Imagenes/FacebookLogo.ico" height="20px"></a></li>
+                <li><a href="https://instagram.com" target="_blank"> <img src="/Proyecto/Imagenes/InstagramLogo.ico" height="20px"></a></li>
+            </ul>
+        </div>
+        <div class="EnlacesFooter">
+            Derechos&Reservados
+            <br>
+            <a href="nosotros.html">Quienes somos</a>
+        </div>
+    </footer>
+</body>
+</html>

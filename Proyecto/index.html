@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/Proyecto/Imagenes/Marcadores.ico" type="image/x-icon">
+    
+    <!-- link a archivos css -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="slider.css">
+    
+    <!-- link a archivo javascript -->
+    <script src="slider.js"></script>
+
+    <title>Proyecto CaC</title>
+
+</head>
+<body>
+    <nav class="navBarr">
+        <ul class="menu-horizontal" id="menu1">
+
+            <!-- Barra de búsqueda -->
+            <li><a title="Logo" href="index.html"> <img src="/Proyecto/Imagenes/Logo.jpg" height="100px" alt="Logo Mercado de las Lapiceras"></a></li>
+            <li> <a href="">Buscador</a></li>
+
+            <!-- categorias -->
+            <li> <a href="productos.html">Productos</a>
+                <ul class="menu-vertical">
+                    <li><a href="">Papeleria</a>
+                        <ul class="menu-vertical-2">
+                            <li><a href="">Cuadernos</a></li>
+                            <li><a href="">Libretas</a></li>
+                            <li><a href="">Resmas</a></li>                    
+                        </ul>
+                    </li>
+                    <li><a href="">Escritura</a>
+                        <ul class="menu-vertical-2">
+                            <li><a href="">Marcadores</a></li>
+                            <li><a href="">Lápices</a></li>
+                            <li><a href="">Biromes</a></li>                   
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- Enlaces en nav -->
+            <li><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
+            <li><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <!-- Empieza el carrousel -->
+    <div class="carousel">
+        <button id="retroceder"><</button>
+        <div id="imagen"></div>
+        <button id="avanzar">></button>
+    </div>
+    <!-- The dots/circles currentSlide(0)-->
+    <div style="text-align:center">
+        <span class="dot" id="dot1">1</span> 
+        <span class="dot" id="dot2">2</span> 
+        <span class="dot" id="dot3">3</span> 
+    </div>
+    <div class="controles">
+        <button id="play">Play</button>
+        <button id="stop" disabled>Stop</button>
+    </div>
+    <!-- Termina el carrousel -->
+
+    
+    
+    <div class="ClientesRegulares">
+        Clientes que confian en nosotros
+    </div>
+
+    
+    
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <footer>
+        <div class="Redes">
+            <ul>
+                <li><a href="https://wa.me/541167142056" target="_blank"> <img src="/Proyecto/Imagenes/WhatsAppLogo.ico" height="20px"></a></li>
+                <li><a href="https://facebook.com" target="_blank"> <img src="/Proyecto/Imagenes/FacebookLogo.ico" height="20px"></a></li>
+                <li><a href="https://instagram.com" target="_blank"> <img src="/Proyecto/Imagenes/InstagramLogo.ico" height="20px"></a></li>
+            </ul>
+        </div>
+        <div class="EnlacesFooter">
+            Derechos&Reservados
+            <br>
+            <a href="nosotros.html">Quienes somos</a>
+        </div>
+    </footer>
+</body>
+</html>
