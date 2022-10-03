@@ -17,7 +17,7 @@ nav{
     margin: auto;
     background-color: #333;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 4.5vw;
     border: 5px;
     border-radius: 5px;
 }
@@ -89,19 +89,28 @@ nav{
 
 footer{
     background-color: aquamarine;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    padding: 1vw;
     
 }
 
-
-.Redes a{
+.itmesfooter{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+}
+.Redes{
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
 }
 
 .EnlacesFooter{
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
 }

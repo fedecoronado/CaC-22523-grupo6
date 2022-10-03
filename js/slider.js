@@ -5,7 +5,7 @@ window.onload = function () {
         'imagenes/Anotador.jpg',
         'imagenes/Boligrafo.jpg'
     ];
-    const TIEMPO_INTERVALO_MILESIMAS_SEG = 1000;
+    const TIEMPO_INTERVALO_MILESIMAS_SEG = 5000;
     let posicionActual = 0;
     let $botonRetroceder = document.querySelector('#retroceder');
     let $botonAvanzar = document.querySelector('#avanzar');

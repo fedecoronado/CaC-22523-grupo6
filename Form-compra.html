@@ -1,17 +1,54 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Libreri Codo a Codo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="/Imagenes/Marcadores.ico" type="image/x-icon">
+            
+      <!-- link a archivos css -->
+      <link rel="stylesheet" href="/css/index.css">
+      <link href="/css/form-validation.css" rel="stylesheet">
+  
+      <title>Proyecto CaC</title>
 
-    <!-- Custom styles for this template -->
-    <link href="/css/form-validation.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
   </head>
 
-  <body class="bg-light"> <!--(bg) background en este caso light -->
-    
+  <body> 
+    <nav class="navBarr">
+      <ul class="menu-horizontal" id="menu1">
+
+          <!-- Barra de búsqueda -->
+          <li><a title="Logo" href="index.html"> <img src="/Imagenes/Logo.jpg" height="100px" alt="Logo Mercado de las Lapiceras"></a></li>
+          <li> <a href="">Buscador</a></li>
+
+          <!-- categorias -->
+          <li> <a href="productos.html">Productos</a>
+              <ul class="menu-vertical">
+                  <li><a href="">Papeleria</a>
+                      <ul class="menu-vertical-2">
+                          <li><a href="">Cuadernos</a></li>
+                          <li><a href="">Libretas</a></li>
+                          <li><a href="">Resmas</a></li>                    
+                      </ul>
+                  </li>
+                  <li><a href="">Escritura</a>
+                      <ul class="menu-vertical-2">
+                          <li><a href="">Marcadores</a></li>
+                          <li><a href="">Lápices</a></li>
+                          <li><a href="">Biromes</a></li>                   
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+
+          <!-- Enlaces en nav -->
+          <li><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
+          <li><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
+      </ul>
+    </nav>
+  
     <div class="container">
       <main>
         <div class="py-2 text-center">
@@ -232,9 +269,27 @@
           </div>
         </div>
       </main>
-
-       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
       <script src="/js/form-validation.js"></script>
+    </div>
+
+
+   
+   
+   
+    <footer>
+      <div class="itmesfooter">
+          <div class="EnlacesFooter">Derechos&Reservados</div>
+          <div class="EnlacesFooter">
+              <div class="Redes"><a href="https://wa.me/541167142056" target="_blank"> <img src="/Imagenes/WhatsAppLogo.ico" height="20px"></a></div>
+              <div class="Redes"><a href="https://facebook.com" target="_blank"> <img src="/Imagenes/FacebookLogo.ico" height="20px"></a></div>
+              <div class="Redes"><a href="https://instagram.com" target="_blank"> <img src="/Imagenes/InstagramLogo.ico" height="20px"></a></div>
+          </div>
+          <div class="EnlacesFooter">
+              <a href="nosotros.html">Quienes somos</a>
+          </div>
+      </div>
+      
+  </footer>
   </body>
 </html>
