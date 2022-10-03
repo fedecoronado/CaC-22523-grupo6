@@ -1,9 +1,9 @@
 window.onload = function () {
     // Variables
     const IMAGENES = [
-        'imagenes/Marcadores.jpg',
-        'imagenes/Anotador.jpg',
-        'imagenes/Boligrafo.jpg'
+        'Imagenes/Marcadores.jpg',
+        'Imagenes/Anotador.jpg',
+        'Imagenes/Boligrafo.jpg'
     ];
     const TIEMPO_INTERVALO_MILESIMAS_SEG = 5000;
     let posicionActual = 0;
