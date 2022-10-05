@@ -1,5 +1,6 @@
 .container {
   max-width: 960px;
+  background-color: darkgray;
 }
 .bd-placeholder-img {
   font-size: 1.125rem;

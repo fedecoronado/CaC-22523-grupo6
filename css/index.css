@@ -6,8 +6,10 @@
 }
 
 body{
-    background-image: url("Imagenes/fondo.jpg");
-    background-size: cover;
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: auto;
+    background-color: #333;
+
 
 }
 
@@ -77,8 +79,6 @@ nav{
 .menu-vertical-2  li:hover .menu-vertical{
     display: block;
 }
-
-
 
 
 
