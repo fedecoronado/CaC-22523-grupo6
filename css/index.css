@@ -7,7 +7,7 @@
 body{
     background-image: url(../imagenes/fondo.jpg);
     background-size: auto;
-    background-color: #333;
+    /*background-color: #333;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 
