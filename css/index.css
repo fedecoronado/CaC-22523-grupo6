@@ -6,6 +6,7 @@
 
 body{
     background-image: url(../imagenes/fondo.jpg);
+    background-color: black;
     background-size: auto;
     /*background-color: #333;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -13,7 +14,15 @@ body{
 
 
 }
-
+header{
+    background-color: grey; /* ver color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 96%;
+    z-index: 999px;
+    text-align: center;
+}
 
 nav{
     max-width: 900px;

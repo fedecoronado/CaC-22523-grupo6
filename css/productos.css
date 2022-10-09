@@ -1,0 +1,53 @@
+/* viene de productivo*/
+
+/* agregados */
+.cuerpo{
+    padding-top: 12.9vw;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 4vw;
+}
+
+.subtipo-prod{
+    display: flex;
+    width: 100;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    row-gap: 5px ;
+    column-gap: 10px;
+    
+}
+.item-prod{
+    border-color: white;
+    border-width: 1px;
+    border-style: dashed;
+    margin: 0vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+
+    /* el tamaño de la imagen hayque definirlo en vw para cada tamaño de display */
+
+}
+.item-prod > img {
+    width: 200px;
+    height: 200px;
+}
+.item-prod > h6 {
+    font-size: 1.1em;
+    width: 200px;
+    height: 20px;
+}
+.btn-compra{
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+h6{
+    font-size: 1em;
+}
+.detalle-prod{
+    font-size: 0.8em;
+}
