@@ -10,6 +10,7 @@ body{
     background-size: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    z-index: 1;
 
 
 }
@@ -19,7 +20,7 @@ header{
     top: 0;
     left: 2%;
     width: 96%;
-    z-index: 999px;
+    z-index: 99px;
     text-align: center;
 }
 
@@ -28,7 +29,7 @@ nav{
     margin: auto;
     background-color: #333;
     font-size: 20px;
-    margin-top: 4.5vw;
+    margin-top: 0.5vw;
     border: 5px;
     border-radius: 5px;
 }

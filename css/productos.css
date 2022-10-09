@@ -1,8 +1,8 @@
 .cuerpo{
-    padding-top: 15vw;
+    padding-top: 145px;
     margin-left: 2%;
     margin-right: 2%;
-    padding-bottom: 4.5vw;
+    padding-bottom: 50px;
 }
 
 .subtipo-prod{
@@ -19,11 +19,12 @@
 .item-prod{
     border-color: white;
     border-width: 1px;
-    border-style: dashed;
+    border-style: hidden;
     margin: 0vw;
     padding: 1vw;
     display: flex;
     flex-direction: column;
+    
 
     /* el tamaño de la imagen hayque definirlo en vw para cada tamaño de display */
 
@@ -31,16 +32,33 @@
 .item-prod > img {
     width: 200px;
     height: 200px;
+    z-index: -2;
 }
 .item-prod > h6 {
     font-size: 1.1em;
     width: 200px;
     height: 20px;
 }
+.precio-prod{
+    width: 65px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.808);
+    font-weight: bold;
+    font-size: 1em;
+    z-index: -1;
+    transform: translate(135px,-20px);
+    
+}
 .btn-compra{
+    transform: translateX(55px);
+    margin-top: -15px;
     background-color: blue;
+    height: 25px;
+    width: 100px;
     color: white;
     border-radius: 6px;
+    border-style: hidden;
+    z-index: -1;
 }
 h6{
     font-size: 1em;
