@@ -5,10 +5,9 @@
 }
 
 body{
-    background-image: url(../imagenes/fondo.jpg);
+    background-image: url(../Imagenes/fondo.jpg);
     background-color: black;
     background-size: auto;
-    /*background-color: #333;*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 
