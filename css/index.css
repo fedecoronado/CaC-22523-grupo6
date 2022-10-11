@@ -90,9 +90,23 @@ nav{
     display: block;
 }
 
+.ClientesRegulares{
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    gap: 10px 10px;
+    margin: 0px;
+}
 
-
-
+.ClientesRegulares > img{
+    width: 220px;
+    height: 80px;
+}
 
 
 
