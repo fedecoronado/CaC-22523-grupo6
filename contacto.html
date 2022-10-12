@@ -9,90 +9,92 @@
         
         <!-- link a archivos css -->
         <link rel="stylesheet" href="css/index.css">
-
-    
+        <link rel="stylesheet" href="css/MenuHamb.css">
+        
         <title>Proyecto CaC</title>
     
     </head>
-<body>
-    <nav class="navBarr">
-        <ul class="menu-horizontal" id="menu1">
+    <body>
+        <header>
+            <!-- <nav class="NavBar"> -->
+            <nav class="nav">
+                <ul class="menu-horizontal" id="menu1">
 
-            <!-- Barra de búsqueda -->
-            <li><a title="Logo" href="index.html"> <img src="Imagenes/Logo.jpg" height="100px" alt="Logo Mercado de las Lapiceras"></a></li>
-            <li> <a href="">Buscador</a></li>
+                    <!-- Logo -->
+                    <li><a title="Logo" href="index.html"> <img src="Imagenes/Logo.jpg" height="100px" alt="Logo Mercado de las Lapiceras"></a></li>
 
-            <!-- categorias -->
-            <li> <a href="productos.html">Productos</a>
-                <ul class="menu-vertical">
-                    <li><a href="">Papeleria</a>
-                        <ul class="menu-vertical-2">
-                            <li><a href="">Cuadernos</a></li>
-                            <li><a href="">Libretas</a></li>
-                            <li><a href="">Resmas</a></li>                    
+                    <!-- Categorias -->
+                    <li> <a href="">Productos</a>
+                        <ul>
+                            <li><a href="">Papeleria</a>
+                                <ul>
+                                    <li><a href="/productos.html#cuadernos">Cuadernos</a></li>
+                                    <li><a href="/productos.html#libretas">Libretas</a></li>
+                                    <li><a href="/productos.html#resmas">Resmas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Escritura</a>
+                                <ul>
+                                    <li><a href="/productos.html#marcadores">Marcadores</a></li>
+                                    <li><a href="/productos.html#lapices">Lápices</a></li>
+                                    <li><a href="/productos.html#biromes">Biromes</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
-                    <li><a href="">Escritura</a>
-                        <ul class="menu-vertical-2">
-                            <li><a href="productos.html#marcadores">Marcadores</a></li>
-                            <li><a href="/productos.html#lapices">Lápices</a></li>
-                            <li><a href="">Biromes</a></li>                   
-                        </ul>
-                    </li>
+
+                    <!-- Enlaces en nav -->
+                    <li><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
+                    <li><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
                 </ul>
-            </li>
-
-            <!-- Enlaces en nav -->
-            <li><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
-            <li><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
-        </ul>
-    </nav>
-    
-    
+            </nav>
+        </header>
+        
+        
 
 
-    <form action="mailto:ezequiel.pucheta.91@gmail.com" method="get">
-        <div class="FormularioConsulta"> <h2>Mandanos tu consulta</h2>
-            <br><br>
-            <p>
-                <label for="NombreCompleto">Nombre y Apellido</label>
-                <input type="text" name="NombreCompleto" id="NombreCompleto" size="40px" required>
-            </p>
-            <p>
-                <label for="Email">Email</label>
-                <input type="email" name="Email" id="Email" size="40px" required>
-            </p>
-            <p>
-                <label for="CodigoArea">Teléfono</label>
-                <input type="tel" name="CodigoArea" id="CodigoArea" size="7px" maxlength="3" placeholder="(Cód. de área)" >
+        <form action="mailto:ezequiel.pucheta.91@gmail.com" method="get">
+            <div class="FormularioConsulta"> <h2>Mandanos tu consulta</h2>
+                <br><br>
+                <p>
+                    <label for="NombreCompleto">Nombre y Apellido</label>
+                    <input type="text" name="NombreCompleto" id="NombreCompleto" size="40px" required>
+                </p>
+                <p>
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" size="40px" required>
+                </p>
+                <p>
+                    <label for="CodigoArea">Teléfono</label>
+                    <input type="tel" name="CodigoArea" id="CodigoArea" size="7px" maxlength="3" placeholder="(Cód. de área)" >
 
-                <label for="Telefono"></label>
-                <input type="tel" name="Telefono" id="Telefono" maxlength="12" >
-            </p>
-            <p>
-            <p>
-                <!-- <label for="Mensaje">Mensaje</label>
-                <input type="text" name="Mensaje" id="Mensaje" placeholder="Esciba su consulta" required> -->
-                Mensaje <textarea name="textarea" rows="10" cols="50" placeholder="Escibí tu consulta"></textarea>
-            </p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Borrar todo">
-        </div>
-</form>
-    
-<footer>
-    <div class="itmesfooter">
-        <div class="EnlacesFooter">Derechos&Reservados</div>
-        <div class="EnlacesFooter">
-            <div class="Redes"><a href="https://wa.me/541167142056" target="_blank"> <img src="Imagenes/WhatsAppLogo.ico" height="20px"></a></div>
-            <div class="Redes"><a href="https://facebook.com" target="_blank"> <img src="Imagenes/FacebookLogo.ico" height="20px"></a></div>
-            <div class="Redes"><a href="https://instagram.com" target="_blank"> <img src="Imagenes/InstagramLogo.ico" height="20px"></a></div>
-        </div>
-        <div class="EnlacesFooter">
-            <a href="nosotros.html">Quienes somos</a>
-        </div>
-    </div>
-    
-</footer>
-</body>
+                    <label for="Telefono"></label>
+                    <input type="tel" name="Telefono" id="Telefono" maxlength="12" >
+                </p>
+                <p>
+                <p>
+                    <!-- <label for="Mensaje">Mensaje</label>
+                    <input type="text" name="Mensaje" id="Mensaje" placeholder="Esciba su consulta" required> -->
+                    Mensaje <textarea name="textarea" rows="10" cols="50" placeholder="Escibí tu consulta"></textarea>
+                </p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar todo">
+            </div>
+        </form>
+        
+        <footer>
+            <div class="itmesfooter">
+                <div class="EnlacesFooter">Derechos&Reservados</div>
+                <div class="EnlacesFooter">
+                    <div class="Redes"><a href="https://wa.me/541167142056" target="_blank"> <img src="Imagenes/WhatsAppLogo.ico" height="20px"></a></div>
+                    <div class="Redes"><a href="https://facebook.com" target="_blank"> <img src="Imagenes/FacebookLogo.ico" height="20px"></a></div>
+                    <div class="Redes"><a href="https://instagram.com" target="_blank"> <img src="Imagenes/InstagramLogo.ico" height="20px"></a></div>
+                </div>
+                <div class="EnlacesFooter">
+                    <a href="nosotros.html">Quienes somos</a>
+                </div>
+            </div>
+            
+        </footer>
+    </body>
 </html>
