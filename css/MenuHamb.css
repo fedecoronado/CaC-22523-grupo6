@@ -1,9 +1,7 @@
 .nav{
     margin: auto;
-    width: 80%;
+    width: 100%;
     background-color: black;
-    border: 15px;
-    border-radius: 15px;
 
 }
 
@@ -11,30 +9,69 @@ ul, ol {
     list-style: none;
 }
 
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100hv - 80px);
+}
+
+
+
+
+
+
+
+
+
+.logo{
+    height: 80px;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+
 .menu-horizontal li a{
-    background-color: grey;
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
 }
 
-.menu-horizontal >li >a{
-    border: 5px;
-    border-radius: 5px;
-}
-
 .menu-horizontal li a:hover{
     background-color: rgb(104, 76, 76);
+    transition: .1s;
 }
 
+.menu-horizontal >li> a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10em;
+    height: 5em;
+    font-size: 1.5em;
+    border: 5px;
+    border-radius: 5px;
+    margin: .2em 0px;
+}
 
 .menu-horizontal {
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
-    
+  
 }
 
 .menu-horizontal li ul{
@@ -45,6 +82,7 @@ ul, ol {
 
 .menu-horizontal li:hover > ul{
     display:block;
+    background-color: rgb(104, 76, 76);
 }
 
 .menu-horizontal li ul li{

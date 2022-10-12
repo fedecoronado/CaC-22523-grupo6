@@ -1,11 +1,13 @@
 *{
     margin:0px;
     padding: 0px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body{
-    background-image: url(../Imagenes/fondo.jpg);
+    background: url(../Imagenes/fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
     background-color: black;
     background-size: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
