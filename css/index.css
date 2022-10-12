@@ -10,10 +10,46 @@ body{
     background-size: auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    z-index: 1;
-
-
+    padding-top: 150px;
+    padding-bottom: 60px;
+    margin-left: 2%;
+    margin-right: 2%;
+    
 }
+header{
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    top: 0;
+    left: 2%;
+    width: 96%;
+    z-index: 2;
+    text-align: center;
+}
+
+
+
+h2{
+    text-align: center;
+    margin: 2vh auto;
+}
+.ClientesRegulares{
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    gap: 10px 10px;
+    margin: 0px;
+}
+
+.ClientesRegulares > img{
+    width: 220px;
+    height: 80px;
+}
+
 
 
 
