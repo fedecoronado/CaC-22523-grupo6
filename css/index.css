@@ -90,9 +90,13 @@ nav{
     display: block;
 }
 
+h2{
+    text-align: center;
+    margin: 2vh auto;
+}
 .ClientesRegulares{
     width: 100%;
-    padding-top: 60px;
+    padding-top: 2vh;
     padding-bottom: 60px;
     display: flex;
     flex-direction: row;
