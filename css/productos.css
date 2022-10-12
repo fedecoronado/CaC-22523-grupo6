@@ -1,15 +1,6 @@
-
-.cuerpo{
-    padding-top: 145px;
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-bottom: 60px;
-
-}
-
 .subtipo-prod{
     display: flex;
-    width: 100;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
