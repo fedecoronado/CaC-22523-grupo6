@@ -1,0 +1,57 @@
+.nav{
+    margin: auto;
+    width: 80%;
+    background-color: black;
+    border: 15px;
+    border-radius: 15px;
+
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.menu-horizontal li a{
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu-horizontal >li >a{
+    border: 5px;
+    border-radius: 5px;
+}
+
+.menu-horizontal li a:hover{
+    background-color: rgb(104, 76, 76);
+}
+
+
+.menu-horizontal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+}
+
+.menu-horizontal li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu-horizontal li:hover > ul{
+    display:block;
+}
+
+.menu-horizontal li ul li{
+    position: relative;
+}
+
+.menu-horizontal li ul li ul{
+    right: -140px;
+    top: 0;
+}

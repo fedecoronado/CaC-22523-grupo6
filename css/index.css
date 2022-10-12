@@ -1,7 +1,7 @@
 *{
     margin:0px;
     padding: 0px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body{
@@ -14,86 +14,6 @@ body{
 
 
 }
-header{
-    background-color: rgba(0, 0, 0, 1);
-    position: fixed;
-    top: 0;
-    left: 2%;
-    width: 96%;
-    z-index: 99px;
-    text-align: center;
-}
-
-nav{
-    max-width: 900px;
-    margin: auto;
-    background-color: #333;
-    font-size: 20px;
-    margin-top: 0.5vw;
-    border: 5px;
-    border-radius: 5px;
-}
-
-.menu-horizontal{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-.menu-horizontal > li > a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-    text-decoration: none;
-}
-
-
-.menu-horizontal > li:hover {
-    background-color: grey;
-}
-
-
-.menu-vertical{
-    position:absolute;
-    display: none;
-    list-style: none;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.5);/*fonde del menu vertical cuando se muestra*/
-}
-
-.menu-horizontal  li:hover .menu-vertical{
-    display: block;
-}
-
-.menu-horizontal  li:hover {
-    background-color: black;
-}
-
-.menu-vertical li a{
-    display: block;
-    color: white;
-    padding: 15px 15px 15px 20px;
-    text-decoration: none;
-}
-
-.menu-vertical > li:hover {
-    background-color: grey;
-}
-.menu-vertical-2{
-    position: relative;
-    display: block;
-    list-style: none;
-    width: 200px;
-    background-color: rgba(0, 0, 0, 0.5);/*fonde del menu vertical cuando se muestra*/
-}
-.menu-vertical-2  li:hover .menu-vertical{
-    display: block;
-}
-
-
-
-
-
 
 
 
