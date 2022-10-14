@@ -1,0 +1,50 @@
+[
+    {
+        "dir":"Imagenes/clientes/aes-elsalvador.jpg",
+        "alt": "aes"
+    },
+    {
+        "dir":"Imagenes/clientes/cetesdirecto.jpg",
+        "alt": "cetesdirecto"
+    },
+    {
+        "dir":"Imagenes/clientes/compartamos-banco.jpg",
+        "alt": "compartamos"
+    },
+    {
+        "dir":"Imagenes/clientes/conecta.jpg",
+        "alt": "conecta"
+    },
+    {
+        "dir":"Imagenes/clientes/distriluz.jpg",
+        "alt": "elektra"
+    },
+    {
+        "dir":"Imagenes/clientes/elektra.jpg",
+        "alt": ""
+    },
+    {
+        "dir":"Imagenes/clientes/epm.jpg",
+        "alt": "epm"
+    },
+    {
+        "dir":"Imagenes/clientes/fortel.jpg",
+        "alt": "fortel"
+    },
+    {
+        "dir":"Imagenes/clientes/gea-internacional.jpg",
+        "alt": "gea"
+    },
+    {
+        "dir":"Imagenes/clientes/hidrandina.jpg",
+        "alt": "hidrandina"
+    },
+    {
+        "dir":"Imagenes/clientes/impronta.jpg",
+        "alt": "impronta"
+    },
+    {
+        "dir":"Imagenes/clientes/ituran.jpg",
+        "alt": "ituran"
+    }
+]

@@ -10,7 +10,7 @@ ul, ol {
 }
 
 section{
-    background: url(fondo.jpg) no-repeat;
+     background: url(../Imagenes/fondo.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: calc(100hv - 80px);
