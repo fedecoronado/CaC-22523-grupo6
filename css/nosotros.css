@@ -8,7 +8,7 @@
 p{
     margin: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 p a {
@@ -26,6 +26,32 @@ h2{
 }
 
 .sucursales li{
-    margin: 5px 0px;
+    margin: 5px;
+}
+
+@media screen and (max-width: 952px) {
+    p{
+        font-size: 18px;
+        
+    }
+    .sucursales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 858px) {
+    p{
+        font-size: 14px;
+    }
+    .sucursales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sucursales li iframe{
+        margin: 5px 0px 35px;
+    }
 }
 
