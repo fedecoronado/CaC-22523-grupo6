@@ -1,5 +1,5 @@
 const ul = document.getElementById("clientesLogo");
-const url = 'Imagenes/clientes/clientes.json';
+const url = 'Imagenes/clientes.json';
 
 function createNode(element) {
     return document.createElement(element);
