@@ -46,5 +46,9 @@
     {
         "dir":"Imagenes/clientes/ituran.jpg",
         "alt": "ituran"
+    },
+    {
+        "dir":"Imagenes/clientes/universidad-central.jpg",
+        "alt": "u-central"
     }
 ]
