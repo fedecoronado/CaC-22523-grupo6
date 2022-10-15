@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+p{
+    margin: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+p a {
+    text-decoration: none;
+    color: red
+}
+
+h2{
+    margin: 100px 0px 50px;
+}
+
+.sucursales{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sucursales li{
+    margin: 5px 0px;
+}
+
