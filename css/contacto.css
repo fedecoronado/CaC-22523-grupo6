@@ -1,12 +1,49 @@
-.FormularioConsulta {
-    max-width: 900px;
-    margin: auto;
-    background-color: #333;
-    font-size: 14px;
-    margin-top: 30px;
-    color: white;
-    line-height: 25px;
-    padding: 5px;
-    border: 5px;
-    border-radius: 5px;
-}
+/* Página de Contacto */
+
+.hero-page{
+    /* background: linear-gradient(to bottom, rgb(0 0 0 / .5), rgb(0 0 0 / .5)), url(img/restaurante-page-bg.jpg) center; */
+    background-size: cover;
+    height: 200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrap-hero-page{
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .section{
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  
+  .wrap-two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4rem;
+  }
+  
+  
+  /* Formulario */
+  
+  .formulario{
+    display: flex;
+    flex-flow: column;
+  }
+  
+  .formulario input, .formulario textarea{
+    margin: .5rem 0;
+    padding: .5rem .2rem;
+  }
+  
+  .formulario button{
+    width: fit-content;
+    border: none;
+    padding: .5rem 1rem;
+    background-color: #FFC300;
+    color: #fff;
+    font-size: 1.1rem;
+  }
