@@ -93,3 +93,14 @@ section{
     right: -140px;
     top: 0;
 }
+
+
+@media screen and (max-width: 952px) {
+
+}
+
+@media screen and (max-width: 858px) {
+    section{
+       height: calc(100hv - 30px);
+   }
+}
