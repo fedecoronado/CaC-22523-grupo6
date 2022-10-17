@@ -1,0 +1,16 @@
+[
+    {
+        "img":"Imagenes/Resma_1.webp",
+        "precio": "$0000",
+        "SKU": "569852",
+        "Nombre": "Resma primera marca",
+        "Descricion": "500 hojas blancas"
+    },
+    {
+        "img":"Imagenes/Resma_1.webp",
+        "precio": "$0000",
+        "SKU": "569853",
+        "Nombre": "misma resma",
+        "Descricion": "500 hojas blancas"
+    }
+]

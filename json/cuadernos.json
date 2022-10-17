@@ -1,0 +1,27 @@
+[
+    {
+        "img":"Imagenes/cuaderno_1.webp",
+        "precio": "$2100",
+        "SKU": "569852",
+        "Nombre": "Cuaderno tapa negra",
+        "Descricion": "Cuaderno de 98 hojas rayadas"
+    },{
+        "img":"Imagenes/cuaderno_1.webp",
+        "precio": "$2100",
+        "SKU": "569852",
+        "Nombre": "Cuaderno tapa negra",
+        "Descricion": "Cuaderno de 98 hojas rayadas"
+    },{
+        "img":"Imagenes/cuaderno_1.webp",
+        "precio": "$2100",
+        "SKU": "569852",
+        "Nombre": "Cuaderno tapa negra",
+        "Descricion": "Cuaderno de 98 hojas rayadas"
+    },{
+        "img":"Imagenes/cuaderno_1.webp",
+        "precio": "$2100",
+        "SKU": "569852",
+        "Nombre": "Cuaderno tapa negra",
+        "Descricion": "Cuaderno de 98 hojas rayadas"
+    }
+]

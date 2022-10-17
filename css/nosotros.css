@@ -3,12 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+.wellcome{
+    background-color: rgba(245, 245, 245, 0.048);
+    border-radius: 5px;
+}
 
 p{
     margin: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 p a {
@@ -23,37 +26,50 @@ h2{
 .sucursales{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .sucursales li{
     margin: 5px;
 }
 
+.mapa{
+    width: 30vw;
+    height: 22vw;
+}
+
 @media screen and (max-width: 952px) {
     p{
-        font-size: 18px;
-        
+        font-size: 1em;
     }
     .sucursales{
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
     }
-    .sucursales li iframe{
+
+    .mapa{
+        width: 45vw;
+        height: 34vw;
         margin: 5px 0px 35px;
     }
 }
 
 @media screen and (max-width: 858px) {
     p{
-        font-size: 14px;
+        font-size: 1em;
     }
     .sucursales{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .sucursales li iframe{
+    .mapa{
+        width: 60vw;
+        height: 45vw;
         margin: 5px 0px 35px;
     }
 }
