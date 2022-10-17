@@ -25,10 +25,10 @@ section{
     background: url(../Imagenes/fondo.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
-    /* height: calc(100hv - 80px); */
+    height: calc(100hv - 80px);
 }
 .logo{
-    height: 12vh;
+    height: 70px;
 }
 
 .checkbtn{
@@ -60,7 +60,7 @@ section{
     align-items: center;
     justify-content: center;
     width: 10em;
-    /* height: 5em; */
+    height: 5em;
     font-size: 1.5em;
     border: 5px;
     border-radius: 5px;
@@ -78,7 +78,7 @@ section{
 .menu-horizontal li ul{
     display: none;
     position: absolute;
-    /* min-width: 140px; */
+    min-width: 140px;
 }
 
 .menu-horizontal li:hover > ul{
