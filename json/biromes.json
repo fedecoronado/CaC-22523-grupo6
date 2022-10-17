@@ -1,0 +1,30 @@
+[
+    {
+        "img":"Imagenes/birome_1.webp",
+        "precio": "$550",
+        "SKU": "569952",
+        "Nombre": "OptiLow azul",
+        "Descricion": "Birome azul"
+    },
+    {
+        "img":"Imagenes/birome_2.webp",
+        "precio": "$950",
+        "SKU": "569953",
+        "Nombre": "OptiLow azul",
+        "Descricion": "Birome negra"
+    },    
+    {
+        "img":"Imagenes/birome_3.webp",
+        "precio": "$815",
+        "SKU": "569954",
+        "Nombre": "birome Barata",
+        "Descricion": "barata pero escribe, aunque en celeste"
+    },    
+    {
+        "img":"Imagenes/birome_4.webp",
+        "precio": "$99",
+        "SKU": "569955",
+        "Nombre": "La Clasica Azul",
+        "Descricion": "La bic de siempre en otra marca"
+    }
+]

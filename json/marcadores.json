@@ -1,0 +1,72 @@
+[
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },
+    {
+        "img":"Imagenes/MARCADORES_2.jpg",
+        "precio": "$1650",
+        "SKU": "569853",
+        "Nombre": "Marcadores de coleres",
+        "Descricion": "12 Marcadores de varios colres"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    },    
+    {
+        "img":"Imagenes/marcado_1.webp",
+        "precio": "$250",
+        "SKU": "569852",
+        "Nombre": "Marcador Negro",
+        "Descricion": "Marcador de fibra trazo fino, color negro"
+    }
+]
