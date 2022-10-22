@@ -1,25 +1,25 @@
-/* *{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-} */
+}
 .wellcome{
     background-color: rgba(245, 245, 245, 0.048);
     border-radius: 5px;
 }
 
-.wellcome p{
+p{
     margin: 25px;
     font-size: 1.2em;
     text-align: justify;
 }
 
-.wellcome p a {
+p a {
     text-decoration: none;
     color: red
 }
 
-.wellcome h2{
+h2{
     margin: 100px 0px 50px;
 }
 
