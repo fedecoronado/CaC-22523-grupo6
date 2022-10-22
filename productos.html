@@ -4,10 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <link rel="shortcut icon" href="Imagenes/Marcadores.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/MenuHamb.css">
     <link rel="stylesheet" href="css/productos.css">
-    <title>Document</title>
+    <title>Proyecto CaC</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <!-- Logo -->
+            <p> <img class="logo" src="Imagenes/Logo.jpg" alt="Logo Mercado de las Lapiceras">
+            </p>
+            <input type="checkbox" id="menu-check">
+            <label id="menu" for="menu-check">
+                <span id="menu-abrir">&#9776;</span>
+                <span id="menu-cerrar">X</span>
+            </label>
+            <nav>
+                <ul class="menu-horizontal"> <!-- id="menuH" -->
+                    <li class="menu"><a href="index.html" class="nav-enlaces">Home</a></li>
+                    <li class="menu"> <a href="productos.html">Productos</a>
+                        <ul>
+                            <li><a href="productos.html#papeleria">Papeleria</a>
+                                <ul>
+                                    <li><a href="productos.html#cuadernos">Cuadernos</a></li>
+                                    <li><a href="productos.html#libretas">Libretas</a></li>
+                                    <li><a href="productos.html#resmas">Resmas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="productos.html#escritura">Escritura</a>
+                                <ul>
+                                    <li><a href="productos.html#marcadores">Marcadores</a></li>
+                                    <li><a href="productos.html#lapices">Lápices</a></li>
+                                    <li><a href="productos.html#biromes">Biromes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
+                    <li class="menu"><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+</header>
+=======
+    
+    <!-- Imagen ICO -->
+    <link rel="shortcut icon" href="Imagenes/Marcadores.ico" type="image/x-icon">
+
+    <!-- link a archivos css -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/MenuHamb.css">
+    <link rel="stylesheet" href="css/productos.css">
+    
+    <title>Proyecto CaC</title>
+
 </head>
 <body>
     <header>
@@ -21,7 +75,7 @@
                 <!-- Categorias -->
                 <li> <a href="productos.html">Productos</a>
                     <ul>
-                        <li><a href="productos.html#papeleria">Papeleria</a>
+                        <li><a href="productos.html#papeleria">Papelería</a>
                             <ul>
                                 <li><a href="productos.html#cuadernos">Cuadernos</a></li>
                                 <li><a href="productos.html#libretas">Libretas</a></li>
@@ -39,16 +93,17 @@
                 </li>
 
                 <!-- Enlaces en nav -->
-                <li><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
+                <li><a href="nosotros.html" class="nav-enlaces">Quiénes somos</a></li>
                 <li><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
+>>>>>>> 5fcb673baf20c199472951136b905c0c05980deb
 
     <script src="js/apiGetLocal.js"></script>
     <div class="tipo-prod">
-        <h4 id="papeleria">Paeleria</h4>
+        <h4 id="papeleria">Papelería</h4>
         <hr>
         <h5>Cuadernos</h5>
         <hr>
@@ -82,7 +137,7 @@
                     traer("marcadores")
             </script>
         </div>
-        <h5>Lapices</h5>
+        <h5>Lápices</h5>
         <hr>
         <div id="lapices" class="subtipo-prod">
             <script>
@@ -109,7 +164,7 @@
             <div class="Redes"><a href="https://instagram.com" target="_blank"> <img src="Imagenes/InstagramLogo.ico" height="20px"></a></div>
         </div>
         <div class="EnlacesFooter">
-            <a href="nosotros.html">Quienes somos</a>
+            <a href="nosotros.html">Quiénes somos</a>
         </div>
     </div>
     

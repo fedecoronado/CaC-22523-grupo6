@@ -1,25 +1,30 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+<<<<<<< HEAD
+} */
 .wellcome{
+=======
+}
+.welcome{
+>>>>>>> 5fcb673baf20c199472951136b905c0c05980deb
     background-color: rgba(245, 245, 245, 0.048);
     border-radius: 5px;
 }
 
-p{
+.wellcome p{
     margin: 25px;
     font-size: 1.2em;
     text-align: justify;
 }
 
-p a {
+.wellcome p a {
     text-decoration: none;
     color: red
 }
 
-h2{
+.wellcome h2{
     margin: 100px 0px 50px;
 }
 

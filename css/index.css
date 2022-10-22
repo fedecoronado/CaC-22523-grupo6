@@ -5,14 +5,14 @@
 }
 
 body{
-    background: url(../Imagenes/fondo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-image: url(../Imagenes/fondo.jpg);
+    /* background-size: 100%;
+    background-position: top center;
     background-color: black;
-    background-size: auto;
+    background-size: auto; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    padding-top: 150px;
+    padding-top: 18vh;
     padding-bottom: 60px;
     margin-left: 2%;
     margin-right: 2%;
@@ -63,11 +63,13 @@ footer{
     padding-left: 0.1vw;
     padding-right: 0.1vw;
 }
-.Redes{
-    padding-left: 0.5vw;
-    padding-right: 0.4vw;
-    
+
+.EnlacesFooter{
+    display: flex;
+    flex-direction: row;
+    color: black;
 }
+
 .EnlacesFooter a:visited{
     color:brown;
 }
@@ -78,8 +80,8 @@ footer{
     width: 30px;
     height: 30px;
 }
-
-.EnlacesFooter{
-    display: flex;
-    flex-direction: row;
+.Redes{
+    padding-left: 0.5vw;
+    padding-right: 0.4vw;
+    
 }
