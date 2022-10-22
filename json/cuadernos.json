@@ -4,24 +4,24 @@
         "precio": "$2100",
         "SKU": "569852",
         "Nombre": "Cuaderno tapa negra",
-        "Descricion": "Cuaderno de 98 hojas rayadas"
+        "Descricion": "A4 - Cuaderno de 98 hojas rayadas"
     },{
-        "img":"Imagenes/cuaderno_1.webp",
+        "img":"Imagenes/cuaderno_2.webp",
         "precio": "$2100",
         "SKU": "569852",
-        "Nombre": "Cuaderno tapa negra",
+        "Nombre": "A4 - Cuaderno tapa roja",
         "Descricion": "Cuaderno de 98 hojas rayadas"
     },{
-        "img":"Imagenes/cuaderno_1.webp",
+        "img":"Imagenes/cuaderno_3.webp",
         "precio": "$2100",
         "SKU": "569852",
-        "Nombre": "Cuaderno tapa negra",
-        "Descricion": "Cuaderno de 98 hojas rayadas"
+        "Nombre": "Cuaderno decorado",
+        "Descricion": "A5 - Cuaderno de 98 hojas cuadriculadas"
     },{
-        "img":"Imagenes/cuaderno_1.webp",
+        "img":"Imagenes/cuaderno_4.webp",
         "precio": "$2100",
         "SKU": "569852",
-        "Nombre": "Cuaderno tapa negra",
-        "Descricion": "Cuaderno de 98 hojas rayadas"
+        "Nombre": "Cuaderno tapa Verde",
+        "Descricion": "A4 - Cuaderno de 98 hojas rayadas"
     }
 ]

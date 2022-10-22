@@ -4,13 +4,13 @@
         "precio": "$0000",
         "SKU": "569852",
         "Nombre": "Resma primera marca",
-        "Descricion": "500 hojas blancas"
+        "Descricion": "500 hojas blancas 250g"
     },
     {
-        "img":"Imagenes/Resma_1.webp",
+        "img":"Imagenes/Resma_2.webp",
         "precio": "$0000",
         "SKU": "569853",
-        "Nombre": "misma resma",
-        "Descricion": "500 hojas blancas"
+        "Nombre": "Resma papel reciclado",
+        "Descricion": "500 hojas colo4 té, feas pero sustentables (ponele)"
     }
 ]

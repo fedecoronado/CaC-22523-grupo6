@@ -5,5 +5,17 @@
         "SKU": "569852",
         "Nombre": "Libreta mediana",
         "Descricion": "Ideal para registrar los mejores cursos de Codo a Codo"
+    },    {
+        "img":"Imagenes/Libreta_2.webp",
+        "precio": "$3250",
+        "SKU": "569852",
+        "Nombre": "Libreta Zen",
+        "Descricion": "9 x 14 - Con frases epirituales"
+    },    {
+        "img":"Imagenes/Libreta_3.webp",
+        "precio": "$3250",
+        "SKU": "569852",
+        "Nombre": "Libreta Marmolada",
+        "Descricion": "15x21 50 hojas blancas"
     }
 ]

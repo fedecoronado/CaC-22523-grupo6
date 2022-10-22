@@ -72,9 +72,10 @@ function productos(seccion, objeto){
             precio.setAttribute("class", "precio-prod");
             precio.innerHTML=`${item.precio}`;
         let boton = createNode('button');
-            boton.setAttribute("class", "btn-compra");
+            boton.setAttribute('type', "button");
+            boton.setAttribute('class', "btn-compra");
             boton.setAttribute('title', "click para comprar");
-            boton.setAttribute('onclick', "Form-compra.html");
+            boton.setAttribute('onclick', "window.location.href='contacto.html'");
             boton.innerHTML = "Comprar";
         let nombre = createNode('h6');
             nombre.setAttribute("class", "nombre-prod");
