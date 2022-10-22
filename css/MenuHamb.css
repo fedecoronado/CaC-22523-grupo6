@@ -4,10 +4,11 @@ header{
     top: 0;
     left: 2%;
     width: 96%;
+    height: auto;
     z-index: 2;
     text-align: center;
 }
-.nav{
+nav{
     margin: auto;
     padding-bottom: 0px;
     padding-top: 0px;
@@ -20,34 +21,39 @@ ul, ol {
     list-style: none;
 }
 
-
-section{
-    background: url(../Imagenes/fondo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100hv - 80px);
+#menu{
+    position: absolute;
+    top: 0;
+    left:0;
+    display: none;
 }
+
+#menu-check{
+    display: none;
+}
+
 .logo{
-    height: 70px;
+    height: 11vh;
 }
 
-.checkbtn{
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-    display: none;
+.menu-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: auto;
 }
-
-#check{
-    display: none;
-}
-
-
 .menu-horizontal li a{
     color: #fff;
     text-decoration: none;
     padding: 1px 15px;
     display: block;
+}
+.menu{
+    display:block;
 }
 
 .menu-horizontal li a:hover{
@@ -57,22 +63,15 @@ section{
 
 .menu-horizontal >li> a{
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 10em;
-    height: 5em;
-    font-size: 1.5em;
-    border: 5px;
+    /* width: 10em; */
+    padding:0.6em 0px  ;
+    font-size: 1em;
+    /* border: 5px; */
     border-radius: 5px;
-    margin: .2em 0px;
-}
-
-.menu-horizontal {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-  
+    /* margin: .2em 0px; */
 }
 
 .menu-horizontal li ul{
@@ -83,25 +82,66 @@ section{
 
 .menu-horizontal li:hover > ul{
     display:block;
-    background-color: rgb(104, 76, 76);
+    background-color: black;
+    min-width: 100px;
 }
 
 .menu-horizontal li ul li{
     position: relative;
+    padding:0.6em 0px;
 }
 
 .menu-horizontal li ul li ul{
-    right: -140px;
+    right: -110%;
     top: 0;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    
+  } 
 
-@media screen and (max-width: 952px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .logo{
+        position: absolute;
+        right: 0;
+        top: 0; 
+    }
+    body{
+        padding-top: 5vh;
+    }
+    #menu{
+        display: block;
+        z-index: 3;
+        position: absolute;
+        top: 3vh;
+        /*agregar un color negativo en mouse over*/
+    }
+    #menu-check:not(:checked) + #menu #menu-abrir {
+        display: block;
+    }
+    #menu-check:not(:checked) + #menu #menu-cerrar {
+        display: none;
+    }
+    #menu-check:checked + #menu #menu-abrir {
+        display: none;
+    }
+    #menu-check:checked + #menu #menu-cerrar {
+        display: block;
+    }
+    #menu-check:checked ~ nav .menu-horizontal {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 10px;
+        top:4vh;
+        background-color: black;
+        width: 30%;
+    }
+    #menu-check:not(:checked) ~ nav .menu-horizontal {
+        display: none;
+    }
 
-}
 
-@media screen and (max-width: 700px) {
-    section{
-       height: calc(100hv - 30px);
-   }
 }

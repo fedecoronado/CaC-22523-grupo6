@@ -4,47 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagenes/Marcadores.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/MenuHamb.css">
     <link rel="stylesheet" href="css/productos.css">
-    <title>Document</title>
+    <title>Proyecto CaC</title>
 </head>
 <body>
     <header>
-        <!-- <nav class="NavBar"> -->
-        <nav class="nav">
-            <ul class="menu-horizontal">
-
-                <!-- Logo -->
-                <li><a title="Logo" href="index.html"> <img src="Imagenes/Logo.jpg" height="100px" alt="Logo Mercado de las Lapiceras"></a></li>
-
-                <!-- Categorias -->
-                <li> <a href="productos.html">Productos</a>
-                    <ul>
-                        <li><a href="productos.html#papeleria">Papeleria</a>
-                            <ul>
-                                <li><a href="productos.html#cuadernos">Cuadernos</a></li>
-                                <li><a href="productos.html#libretas">Libretas</a></li>
-                                <li><a href="productos.html#resmas">Resmas</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="productos.html#escritura">Escritura</a>
-                            <ul>
-                                <li><a href="productos.html#marcadores">Marcadores</a></li>
-                                <li><a href="productos.html#lapices">Lápices</a></li>
-                                <li><a href="productos.html#biromes">Biromes</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- Enlaces en nav -->
-                <li><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
-                <li><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
+        <div class="contenedor">
+            <!-- Logo -->
+            <p> <img class="logo" src="Imagenes/Logo.jpg" alt="Logo Mercado de las Lapiceras">
+            </p>
+            <input type="checkbox" id="menu-check">
+            <label id="menu" for="menu-check">
+                <span id="menu-abrir">&#9776;</span>
+                <span id="menu-cerrar">X</span>
+            </label>
+            <nav>
+                <ul class="menu-horizontal"> <!-- id="menuH" -->
+                    <li class="menu"><a href="index.html" class="nav-enlaces">Home</a></li>
+                    <li class="menu"> <a href="productos.html">Productos</a>
+                        <ul>
+                            <li><a href="productos.html#papeleria">Papeleria</a>
+                                <ul>
+                                    <li><a href="productos.html#cuadernos">Cuadernos</a></li>
+                                    <li><a href="productos.html#libretas">Libretas</a></li>
+                                    <li><a href="productos.html#resmas">Resmas</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="productos.html#escritura">Escritura</a>
+                                <ul>
+                                    <li><a href="productos.html#marcadores">Marcadores</a></li>
+                                    <li><a href="productos.html#lapices">Lápices</a></li>
+                                    <li><a href="productos.html#biromes">Biromes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="nosotros.html" class="nav-enlaces">Quienes somos</a></li>
+                    <li class="menu"><a href="contacto.html" class="nav-enlaces">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+</header>
 
     <script src="js/apiGetLocal.js"></script>
     <div class="tipo-prod">
