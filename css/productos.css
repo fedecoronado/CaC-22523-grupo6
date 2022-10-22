@@ -1,3 +1,6 @@
+body{
+    padding-top: 18vh;
+}
 .subtipo-prod{
     display: flex;
     width: 100%;

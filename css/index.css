@@ -12,7 +12,7 @@ body{
     background-size: auto; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    padding-top: 18vh;
+    padding-top: 11vh;
     padding-bottom: 60px;
     margin-left: 2%;
     margin-right: 2%;
@@ -68,6 +68,14 @@ footer{
     display: flex;
     flex-direction: row;
     color: black;
+    text-align: center;
+}
+
+#linkleft {
+    text-align: left;
+}
+#linkrigth {
+    text-align: right;
 }
 
 .EnlacesFooter a:visited{
