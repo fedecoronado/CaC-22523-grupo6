@@ -1,37 +1,37 @@
 [
     {
-        "img":"Imagenes/Lapices_1.webp",
+        "img":"Imagenes/lápices_1.webp",
         "precio": "$250",
         "SKU": "569852",
-        "Nombre": "Lapices de Colores",
+        "Nombre": "lápices de Colores",
         "Descricion": "Ideales para el colegio"
     },
     {
-        "img":"Imagenes/Lapices_1.webp",
+        "img":"Imagenes/lápices_1.webp",
         "precio": "$1650",
         "SKU": "569853",
-        "Nombre": "Lapices de Colores",
-        "Descricion": "12 colres ideales para el colegio"
+        "Nombre": "lápices de Colores",
+        "Descricion": "12 colores ideales para el colegio"
     },    
     {
-        "img":"Imagenes/Lapices_1.webp",
+        "img":"Imagenes/lápices_1.webp",
         "precio": "$250",
         "SKU": "569852",
-        "Nombre": "Lapices de Colores",
-        "Descricion": "12 colres ideales para el colegio"
+        "Nombre": "lápices de Colores",
+        "Descricion": "12 colores ideales para el colegio"
     },    
     {
-        "img":"Imagenes/Lapices_1.webp",
+        "img":"Imagenes/lápices_1.webp",
         "precio": "$250",
         "SKU": "569852",
-        "Nombre": "Lapices de Colores",
-        "Descricion": "12 colres ideales para el colegio"
+        "Nombre": "lápices de Colores",
+        "Descricion": "12 colores ideales para el colegio"
     },    
     {
-        "img":"Imagenes/Lapices_1.webp",
+        "img":"Imagenes/lápices_1.webp",
         "precio": "$250",
         "SKU": "569852",
-        "Nombre": "Lapices de Colores",
-        "Descricion": "12 colres ideales para el colegio"
+        "Nombre": "lápices de Colores",
+        "Descricion": "12 colores ideales para el colegio"
     }
 ]

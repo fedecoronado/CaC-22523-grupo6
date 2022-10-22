@@ -17,14 +17,14 @@
         "img":"Imagenes/birome_3.webp",
         "precio": "$815",
         "SKU": "569954",
-        "Nombre": "birome Barata",
-        "Descricion": "barata pero escribe, aunque en celeste"
+        "Nombre": "Birome económica",
+        "Descricion": "Lo mejor para escribir, aunque en celeste"
     },    
     {
         "img":"Imagenes/birome_4.webp",
         "precio": "$99",
         "SKU": "569955",
-        "Nombre": "La Clasica Azul",
+        "Nombre": "La Clásica Azul",
         "Descricion": "La bic de siempre en otra marca"
     }
 ]
