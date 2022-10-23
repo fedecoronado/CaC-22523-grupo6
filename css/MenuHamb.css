@@ -116,7 +116,7 @@ ul, ol {
         z-index: 3;
         position: absolute;
         top: 3vh;
-        /*agregar un color negativo en mouse over*/
+        /*agregar un color negativo en mouse over*/ /*es necesario? No habría mouse en una pantalla tan chica*/
     }
     #menu-check:not(:checked) + #menu #menu-abrir {
         display: block;
