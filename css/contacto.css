@@ -25,7 +25,15 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 4rem;
   }
-  
+
+  @media (max-width: 560px){
+      .wrap-two-column{
+        display: flex;
+        flex-flow: column;
+      }
+
+
+  }
   
   /* Formulario */
   
@@ -47,3 +55,12 @@
     color: #fff;
     font-size: 1.1rem;
   }
+
+  @media (max-width: 560px){
+    .column-half{
+      margin-bottom: 25px;
+
+    }
+  }
+
+    
