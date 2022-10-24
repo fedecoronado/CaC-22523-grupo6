@@ -32,8 +32,12 @@ ul, ol {
     display: none;
 }
 
-.logo{
+.logomenu{
+    display: block;
     height: 11vh;
+}
+#home-menu{
+    display: none;
 }
 
 .menu-horizontal {
@@ -104,9 +108,17 @@ ul, ol {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .logo{
+        display: block;
+        height: 11vh;
         position: absolute;
         right: 0;
         top: 0; 
+    }
+    .logomenu{
+        display: none;
+    }
+    #home-menu{
+        display: block;
     }
     body{
         padding-top: 7vh;

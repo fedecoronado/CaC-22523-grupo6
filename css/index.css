@@ -18,6 +18,10 @@ body{
     margin-right: 2%;
 }
 
+.logo{
+    display: none;
+}
+
 
 
 h2{
